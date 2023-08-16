@@ -22,7 +22,7 @@ right: 2rem;
 }}
 </style>
 """
-analytics.write_key = 'YOUR_WRITE_KEY'
+#analytics.write_key = 'YOUR_WRITE_KEY'
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 conn = sqlite3.connect("pwd.db")
